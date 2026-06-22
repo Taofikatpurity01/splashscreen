@@ -10,7 +10,7 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Scaffold provides the basic visual layout structure of the screen.
     return Scaffold(
-      backgroundColor: Colors.grey.shade100, // Consistent light grey background
+      backgroundColor: const Color.fromARGB(237, 245, 245, 249), // Consistent light grey background
 
       // SafeArea ensures content is not hidden behind system UI (notch, status bar).
       body: SafeArea(
